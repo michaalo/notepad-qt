@@ -14,6 +14,10 @@ MainWindow::MainWindow(QWidget *parent)
     ui->setupUi(this);
     connect(ui->textEdit, &QTextEdit::textChanged, this, &MainWindow::onTextChanged);
     connect(ui->textEdit, &QTextEdit::cursorPositionChanged, this, &MainWindow::onTextChanged);
+
+    setWindowIcon(QIcon(":/images/notepad.jpg"));
+    setWindowTitle("New file");
+
     ui->actionBold->setCheckable(true);
     ui->actionItalic->setCheckable(true);
     ui->actionUnderline->setCheckable(true);

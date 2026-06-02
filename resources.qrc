@@ -20,5 +20,6 @@
         <file>images/underline.png</file>
         <file>images/moon.png</file>
         <file>images/sun.png</file>
+        <file>images/notepad.jpg</file>
     </qresource>
 </RCC>
