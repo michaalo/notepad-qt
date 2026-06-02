@@ -2,7 +2,7 @@
 
 A lightweight text editor built with **C++** and **Qt Widgets**, designed for everyday text and code editing.
 
-![C++](https://img.shields.io/badge/C%2B%2B-17-blue) ![Qt](https://img.shields.io/badge/Qt-5%2F6-green) ![License](https://img.shields.io/badge/license-MIT-lightgrey)
+![C++](https://img.shields.io/badge/C%2B%2B-17-blue) ![Qt](https://img.shields.io/badge/Qt-5%2F6-green)
 
 ---
 
@@ -16,7 +16,6 @@ notepad-qt is a desktop notepad application with a clean GUI. It supports openin
 
 - **File management** — New, Open, Save, Save As with support for `.txt`, `.cpp`, `.h`, `.py`, `.js`, `.cs`, `.sh`, `.bash`, `.html`
 - **Editing** — Undo, Redo, Copy, Cut, Paste
-- **Find & Replace** — search and replace text across the document
 - **Font selection** — change the editor font at runtime
 - **Dark mode** — toggle between light and dark editor theme
 - **Live counter** — word and character count shown in the status bar
@@ -77,9 +76,3 @@ notepad-qt/
 ├── resources.qrc         # resource file (icons)
 └── images/               # toolbar and menu icons
 ```
-
----
-
-## License
-
-This project is open source under the [MIT License](LICENSE).
